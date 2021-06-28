@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 from pycaret.regression import *
+import catboost
 
 # Carregando modelo IA 
 model = load_model('model/modelo-final')
