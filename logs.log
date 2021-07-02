@@ -673,6 +673,7 @@
                  <catboost.core.CatBoostRegressor object at 0x000001F5B7F3DE50>]]), probability_threshold=None, encoded_labels=True, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
 2021-06-28 15:08:33,507:INFO:Checking exceptions
 2021-06-28 15:08:33,507:INFO:Preloading libraries
+<<<<<<< HEAD
 2021-07-01 22:25:01,890:INFO:Initializing load_model()
 2021-07-01 22:25:01,944:INFO:load_model(model_name=model/modelo-final, platform=None, authentication=None, verbose=True)
 2021-07-02 13:11:48,177:INFO:Initializing load_model()
@@ -681,3 +682,5 @@
 2021-07-02 13:22:28,859:INFO:load_model(model_name=model/modelo-final, platform=None, authentication=None, verbose=True)
 2021-07-02 13:22:36,865:INFO:Initializing load_model()
 2021-07-02 13:22:36,865:INFO:load_model(model_name=model/modelo-final, platform=None, authentication=None, verbose=True)
+=======
+>>>>>>> f752d5e639cd3d6291c5117696878e2eec9fce84
