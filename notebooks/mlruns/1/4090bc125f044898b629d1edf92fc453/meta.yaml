@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Pichau/Documents/Projetos/Bootcamp-slack/notebooks/mlruns/1/4090bc125f044898b629d1edf92fc453/artifacts
+end_time: 1624401401938
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 4090bc125f044898b629d1edf92fc453
+run_uuid: 4090bc125f044898b629d1edf92fc453
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1624401397309
+status: 3
+tags: []
+user_id: Vicio
