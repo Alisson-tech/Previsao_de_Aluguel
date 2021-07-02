@@ -14,7 +14,7 @@ Na pasta dags do repositório existe um script chamado data_pipeline.py, o scrip
 
 ## Análise exploratória
 
-nessa etapa análisamos os dados e tiramos alguns insights que podem ser visualizados em notebooks/aula3.ipynb.
+nessa etapa análisamos os dados e tiramos alguns insights que podem ser visualizados em notebooks/analise.ipynb.
 
 ### insights importantes
 
@@ -81,14 +81,15 @@ Como mostrado acima o melhor algoritmo testado foi o Random Forest, porém para 
 
 Basicamente ele treina e testa diversos algoritmos de I.A e te retornar a lista em ordem do melhor algoritmo para o pior utilizando a métrica R2.
 
-(img)
+Com isso utilizando o próprio pycaret finalizamos nosso modelo utilizando o algoritmo  Catboost.
 
-Com isso utilizando o próprio pycaret finalizamos nosso modelo utilizando o algoritmo  
+Para mais informações abra o arquivo notebooks/analise.ipynb.
 
-Para mais informações abra o arquivo notebooks/aula3.ipynb.
 
 ## Data App
 
 Utilizando o streamlit foi desenvolvido um aplicativo web que ao preencher as informações ele consome nosso modelo de I.A e realiza a previsão de quanto deve ser o valor de aluguel do imóvel.
 
-(img)
+https://share.streamlit.io/alisson-tech/previsao_de_aluguel/app.py
+
+![img](https://github.com/Alisson-tech/Previsao_de_Aluguel/blob/master/img/data-app.PNG)
